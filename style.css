@@ -60,4 +60,18 @@ nav a {
 .project-card p {
   margin: 8px 0;
 }
+.contact {
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.contact-info a {
+  color: #004080;
+  text-decoration: none;
+}
 
