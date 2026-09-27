@@ -39,3 +39,25 @@ nav a {
   text-decoration: none;
   border-radius: 5px;
 }
+.projects {
+  padding: 40px;
+  text-align: center;
+}
+
+.project-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.project-card h3 {
+  color: #004080;
+}
+
+.project-card p {
+  margin: 8px 0;
+}
+
