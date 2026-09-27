@@ -75,3 +75,20 @@ nav a {
   text-decoration: none;
 }
 
+.experience, .education {
+  padding: 40px;
+  background: #fff;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.exp-card, .edu-card {
+  margin: 20px 0;
+}
+
+.experience h2, .education h2 {
+  color: #004080;
+  text-align: center;
+}
