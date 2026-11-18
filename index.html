@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sheril | ICT Graduate Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheril Aol | ICT Graduate Portfolio</title>
+<meta name="description" content="Portfolio of Sheril Aol, ICT graduate in networking, Linux, software and client solutions.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#05061f}
+body{display:flex;align-items:center;justify-content:center;overflow:hidden;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.bg{position:fixed;inset:-40px;background:url(images/cover.jpg) center/cover;filter:blur(28px) brightness(.55)}
+.poster{position:relative;width:min(100vw,66.666vh);aspect-ratio:1024/1536;box-shadow:0 0 60px rgba(40,120,255,.55)}
+.poster img{display:block;width:100%;height:100%}
+.hot{position:absolute;display:block;border-radius:40px}
+.hot:hover{box-shadow:0 0 22px rgba(30,167,255,.9);background:rgba(30,167,255,.12)}
+.hot:focus-visible{outline:3px solid #5EEAD4;outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.sr:focus,.sr a:focus{position:fixed;width:auto;height:auto;clip:auto;z-index:9;background:#fff;color:#000;padding:8px 12px;top:8px;left:8px}
+@media(max-height:500px){body{overflow:auto;align-items:flex-start}.poster{width:100vw}}
+</style>
 </head>
 <body>
-  <header>
-    <h1>Sheril – ICT Graduate</h1>
-    <p>Software Developer | Cloud Computing Enthusiast</p>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <img src="your-photo.jpg" alt="Sheril's photo" class="profile-pic">
-    <div class="intro">
-      <h2>Welcome to My Portfolio!</h2>
-      <p>I am an ICT graduate passionate about software development, cloud computing, and cybersecurity. Explore my projects and experience below.</p>
-      <a href="projects.html" class="button">View My Projects</a>
-    </div>
-  </section>
-  <footer>
-  <p>&copy; 2026 Sheril | ICT Graduate Portfolio</p>
-  <p>
-    <a href="index.html">Home</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="experience.html">Experience</a> |
-    <a href="skills.html">Skills</a> |
-    <a href="contact.html">Contact</a>
-  </p>
-</footer>
-
+<div class="bg" aria-hidden="true"></div>
+<main class="poster">
+<h1 class="sr">Sheril Aol, ICT Graduate | Business Development &amp; Client Solutions Intern Candidate</h1>
+<img src="images/cover.jpg" alt="Portfolio cover: Sheril Aol, ICT graduate, in a vest and tie working on a laptop. Turning ideas into innovative solutions. Phone +254 711 353 372, email aolsheril98@gmail.com, Ruaraka, Nairobi 00618.">
+<a class="hot" style="left:50.3%;top:86.2%;width:46.5%;height:6%" href="about.html" aria-label="Open my portfolio"></a>
+<a class="hot" style="left:5.5%;top:85%;width:29%;height:3.4%" href="tel:+254711353372" aria-label="Call +254 711 353 372"></a>
+<a class="hot" style="left:5.5%;top:88.6%;width:37%;height:3.4%" href="mailto:aolsheril98@gmail.com" aria-label="Email aolsheril98@gmail.com"></a>
+<nav class="sr"><a href="about.html">About</a> <a href="about.html#skills">Skills</a> <a href="projects.html">Projects</a> <a href="about.html#experience">Experience</a> <a href="projects.html#contact">Contact</a></nav>
+</main>
 </body>
 </html>

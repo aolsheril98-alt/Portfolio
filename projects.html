@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Projects | Sheril Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<title>Projects | Sheril Aol</title>
 </head>
 <body>
-  <header>
-    <h1>Sheril – ICT Graduate</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<nav><div class="wrap">
+<a class="brand" href="index.html">Sheril <b>Aol</b></a>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="about.html#skills">Skills</a></li>
+<li><a class="on" href="projects.html">Projects</a></li>
+<li><a href="about.html#experience">Experience</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div></nav>
 
-  <section class="projects">
-    <h2>My Projects</h2>
+<main class="wrap">
+<section id="projects">
+<h2>My <b>Projects</b></h2>
+<div class="grid" id="projects-list" style="grid-template-columns:1fr"></div>
+</section>
 
-    <div class="project-card">
-      <h3>AgriLink Masoko System</h3>
-      <p>Marketplace app connecting farmers with buyers.</p>
-      <p><strong>Tech Stack:</strong> Flutter | Firebase | XAMPP</p>
-      <a href="https://github.com/yourusername/agrilink" class="button">View on GitHub</a>
-    </div>
+<section id="education">
+<h2><b>Education</b></h2>
+<div class="grid" id="edu-grid"></div>
+</section>
 
-    <div class="project-card">
-      <h3>Network Monitoring Tool</h3>
-      <p>Python‑based application for network security and performance tracking.</p>
-      <p><strong>Tech Stack:</strong> Python | SNMP | Flask</p>
-      <a href="https://github.com/yourusername/network-monitor" class="button">View on GitHub</a>
-    </div>
+<section id="certs">
+<h2><b>Certifications</b></h2>
+<div class="grid" id="cert-grid"></div>
+</section>
 
-    <div class="project-card">
-      <h3>Student Portal System</h3>
-      <p>Web system for managing student records and course registration.</p>
-      <p><strong>Tech Stack:</strong> PHP | MySQL | Bootstrap</p>
-      <a href="https://github.com/yourusername/student-portal" class="button">View on GitHub</a>
-    </div>
-  </section>
-  <footer>
-  <p>&copy; 2026 Sheril | ICT Graduate Portfolio</p>
-  <p>
-    <a href="index.html">Home</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="experience.html">Experience</a> |
-    <a href="skills.html">Skills</a> |
-    <a href="contact.html">Contact</a>
-  </p>
-</footer>
+<section id="references">
+<h2><b>References</b></h2>
+<div class="refs" id="refs"></div>
+<p id="refs-note" style="color:var(--muted);font-size:14px;margin-top:12px">Contact details available on request.</p>
+</section>
 
+<section id="contact">
+<div class="connect">
+<h2>Let’s <b>Connect!</b></h2>
+<p>I’m open to opportunities in ICT, business development and client solutions.</p>
+<div class="row" id="contact-row"></div>
+<div class="social" id="social"></div>
+</div>
+<p class="thanks">Thank you for visiting my portfolio!</p>
+<div class="next"><a class="btn" href="about.html">← About</a><a class="btn" href="index.html">Home</a></div>
+</section>
+</main>
+<footer>© <span id="y">2026</span> Sheril Aol</footer>
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
