@@ -71,13 +71,16 @@ window.PORTFOLIO = {
   ],
 
   /* ---------- Projects (newest first) ----------
-     tools = small tags, link = GitHub/demo link ("" hides it)   */
+     tools = small tags, link = GitHub/demo link ("" hides it)
+     images = screenshots you upload to the images folder, e.g.
+              images: ["images/agrilink-1.png", "images/agrilink-2.png"]  */
   projects: [
     {
       icon: "📱",
       title: "AgriLink Masoko System (Mobile App)",
       text: "Designed a mobile application system, applying system analysis and design, user interface design and mobile app development.",
       tools: ["Android", "UI design", "System analysis"],
+      images: [],
       link: "",
       linkLabel: "View on GitHub"
     },
@@ -86,6 +89,7 @@ window.PORTFOLIO = {
       title: "Linux Project",
       text: "Designed and carried out Linux-based projects, applying command-line administration, user and permission management, and system configuration.",
       tools: ["Linux", "Command line", "Permissions"],
+      images: [],
       link: "",
       linkLabel: "View project"
     },
@@ -94,6 +98,7 @@ window.PORTFOLIO = {
       title: "Virtualization Project",
       text: "Designed and set up a virtualized environment with virtual machines, running multiple operating systems on shared hardware.",
       tools: ["Virtual machines", "Operating systems"],
+      images: [],
       link: "",
       linkLabel: "View project"
     }

@@ -43,6 +43,15 @@
     var c = el("div", "card proj"); c.appendChild(el("span", "icon", p.icon || "💡"));
     var b = el("div"); b.appendChild(el("h3", "", p.title)); b.appendChild(el("p", "", p.text));
     if (p.tools && p.tools.length) { var t = el("div", "tags"); p.tools.forEach(function (x) { t.appendChild(el("span", "", x)); }); b.appendChild(t); }
+    if (p.images && p.images.length) {
+      var sh = el("div", "shots");
+      p.images.forEach(function (src, i) {
+        var a = el("a"); a.href = src; a.target = "_blank"; a.rel = "noopener"; a.setAttribute("aria-label", p.title + " screenshot " + (i + 1));
+        var im = el("img"); im.src = src; im.alt = p.title + " screenshot " + (i + 1); im.loading = "lazy";
+        a.appendChild(im); sh.appendChild(a);
+      });
+      b.appendChild(sh);
+    }
     if (p.link) b.appendChild(link(p.link, (p.linkLabel || "View project") + " →", "more"));
     c.appendChild(b); return c;
   }, "Projects coming soon.");
