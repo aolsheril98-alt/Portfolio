@@ -113,7 +113,7 @@ window.PORTFOLIO = {
       title: "BSc Information Communication Technology",
       school: "Jaramogi Oginga Odinga University of Science and Technology (JOOUST), School of Informatics and Innovation",
       note: "",
-      documents: []
+      documents: [{ label: "Transcript", file: "docs/sheril-transcript.pdf" }, { label: "Recommendation letter", file: "docs/sheril-recommendation.pdf" }]
     },
     {
       period: "2018 – 2022",
@@ -133,7 +133,7 @@ window.PORTFOLIO = {
 
   /* ---------- Certifications (leave [] to hide the section) ----------
      { year: "2026", title: "Cisco Networking Basics", issuer: "Cisco Networking Academy", file: "docs/cisco.pdf" }  */
-  certifications: [],
+  certifications: [{ year: "2026", title: "Driving Certificate", issuer: "Imperial Driving School", file: "docs/driving-certificate-name.pdf" }],
 
   /* ---------- References ---------- */
   showReferencePhones: false,      // true = phone numbers appear on the public website
